@@ -33,7 +33,7 @@ variable "allowed_refs_apply" {
   description = "Git refs allowed to assume the role. Example: repo:owner/repo:ref:refs/heads/main"
   type        = list(string)
   default = [
-    "repo:dantejauregui/aws_vpcHA_privateALB_FastAPI_ecsFargate_RDS_OpenTelemetry:environment:production"
+    "repo:dantejauregui/aws_vpcHA_privateALB_FastAPI_ecsFargate_RDS_OpenTelemetry@1345947696:environment:production"
   ]
 }
 
