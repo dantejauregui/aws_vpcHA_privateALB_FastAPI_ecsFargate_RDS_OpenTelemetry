@@ -26,14 +26,14 @@ variable "allowed_refs_plan" {
   description = "Git refs allowed to assume the role. Example: repo:owner/repo:ref:refs/heads/main"
   type        = list(string)
   default = [
-    "repo:dantejauregui/aws_vpcHA_privateALB_FastAPI_ecsFargate_RDS_OpenTelemetry@1345947696:pull_request"
+    "repo:dantejauregui@10466343/aws_vpcHA_privateALB_FastAPI_ecsFargate_RDS_OpenTelemetry@1345947696:pull_request"
   ]
 }
 variable "allowed_refs_apply" {
   description = "Git refs allowed to assume the role. Example: repo:owner/repo:ref:refs/heads/main"
   type        = list(string)
   default = [
-    "repo:dantejauregui/aws_vpcHA_privateALB_FastAPI_ecsFargate_RDS_OpenTelemetry@1345947696:environment:production"
+    "repo:dantejauregui@10466343/aws_vpcHA_privateALB_FastAPI_ecsFargate_RDS_OpenTelemetry@1345947696:environment:production"
   ]
 }
 
